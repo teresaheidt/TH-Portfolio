@@ -1,10 +1,36 @@
-.background {
-  background-image: url("/img/code.jpg");
-  background-size: cover;
-  height: 1500px;
+#w3-top {
+  font-size: larger;
 }
 
 .name {
-  color: rgb(218, 6, 207);
+  color: rgb(235, 22, 224);
 }
+
+.w3-xxlarge {
+  height: 180px;
+  padding-right: 500px;
+}
+
+.content {
+  margin-right: 80px;
+  margin-left: 80px;
+}
+
+/* #about {
+  text-align: center;
+  margin-left: 120px;
+  margin-right: 120px;
+}
+
+/* #profilePic {
+  margin-left: 620px;
+  width: 10%;
+  border-radius: 10%;
+} */ */
+
+
+
+
+
+
 

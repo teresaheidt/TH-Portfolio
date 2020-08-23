@@ -6,11 +6,12 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link rel="stylesheet" href="css/style.css">
 <body>
 
 <!-- Navbar (sit on top) -->
-<div class="w3-top">
+<div id="w3-top">
   <div class="w3-bar w3-white w3-wide w3-padding w3-card">
     <a href="#home" class="w3-bar-item w3-button"><b class="name">Teresa Heidt</b> Portfolio</a>
     <!-- Float links to the right. Hide them on small screens -->
@@ -21,13 +22,12 @@
     </div>
   </div>
 </div>
-
    
-  <!-- Header -->
+<!-- Header -->
 <header class="w3-display-container w3-content w3-wide" style="max-width:1500px;" id="home">
-  <img class="background" src="img/code.jpg" alt="code" width="1500" height="800">
+  <img class="background" src="img/darkpink.jpg" alt="code" width="1500" height="600">
   <div class="w3-display-middle w3-margin-top w3-center">
-    <h1 class="w3-xxlarge w3-text-white"><span class="w3-padding w3-black w3-opacity-min"><b>TH</b></span> <span class="w3-hide-small w3-text-light-grey">Portfolio</span></h1>
+    <h1 class="w3-xxlarge w3-text-white"><span class="w3-padding w3-pink w3-opacity-min"><b>TH</b></span> <span class="w3-hide-small w3-text-light-grey">Portfolio</span></h1>
   </div>
 </header>
 
@@ -43,40 +43,48 @@
   <div class="w3-row-padding">
     <div class="w3-col l3 m6 w3-margin-bottom">
       <div class="w3-display-container">
-        <div class="w3-display-topleft w3-pink w3-padding">Password Generator</div>
+        <a href="Password-Generator/Password-Generator/index.html" target="_blank">
+          <div class="w3-display-topleft w3-pink w3-padding">Password Generator</div>
+        </a>
         <img src="img/password.jpg" alt="Password generator" style="width:100%">
-        <a href="Password-Generator/Password-Generator/index.html"></a>
       </div>
     </div>
 
     <div class="w3-col l3 m6 w3-margin-bottom">
       <div class="w3-display-container">
-        <div class="w3-display-topleft w3-pink w3-padding">Daily Planner</div>
+        <a href="Scheduler/Scheduler/index.html" target="_blank">
+          <div class="w3-display-topleft w3-pink w3-padding">Daily Planner</div>
+        </a>
         <img src="img/scheduler.jpg" alt="Daily Planner" style="width:100%">
-        <a href="Scheduler/Scheduler/index.html"></a>
       </div>
     </div>
 
     <div class="w3-col l3 m6 w3-margin-bottom">
       <div class="w3-display-container">
-        <div class="w3-display-topleft w3-pink w3-padding">Weather Dashboard</div>
+        <a href="Weather-Dashboard/Weather-Dashboard/index.html" target="_blank">
+          <div class="w3-display-topleft w3-pink w3-padding">Weather Dashboard</div>
+        </a>
         <img src="img/weather.jpg" alt="Sunny Weather" style="width:100%">
-        <a href="Weather-Dashboard/Weather-Dashboard/index.html"></a>
       </div>
     </div>
     
     <div class="w3-col l3 m6 w3-margin-bottom">
       <div class="w3-display-container">
-        <div class="w3-display-topleft w3-pink w3-padding">Middle Point</div>
+        <a href="Project_1/Middle-Point-TAPS/index.html" target="_blank">
+          <div class="w3-display-topleft w3-pink w3-padding">Middle Point</div>
+        </a>
         <img src="img/map.jpg" alt="A Map" style="width:100%">
-        <a href="Project_1/Middle-Point-TAPS/index.html"></a>
       </div>
     </div>
-
+    
+<br>
 <!-- About Section -->
+
 <div class="w3-container w3-padding-32" id="about">
   <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">About Me</h3>
-  <p>Hello there and welcome to my portfolio! <p></p>
+  <br>
+  <img src="img/puppy.jpeg" alt="A Map" style="width:20%">
+  <p>Hello there! <p></p>
     My name is Teresa and I am a web designer and developer.
     Being creative and designing captivating content is my focus.
     I am always thinking outside the box and bringing new ideas to the table
@@ -98,8 +106,8 @@
     <input class="w3-input w3-section w3-border" type="text" placeholder="Email" required name="Email">
     <input class="w3-input w3-section w3-border" type="text" placeholder="Subject" required name="Subject">
     <input class="w3-input w3-section w3-border" type="text" placeholder="Comment" required name="Comment">
-    <button class="w3-button w3-black w3-section" type="submit">
-      <i class="fa fa-paper-plane"></i> SEND MESSAGE
+    <button class="w3-button w3-pink w3-section" type="submit">
+      <i class="fa fa-paper-plane"></i> Send me a message!
     </button>
   </form>
 </div>
@@ -108,14 +116,12 @@
 </div>
 
 <!-- Footer -->
-<footer class="w3-container w3-center w3-opacity w3-margin-bottom w3-light-grey">
-  <h5>Contributers:</h5>
-  <!-- Teresa -->
-  <div class="w3-xlarge w3-padding-16">
+<footer class="w3-container w3-center w3-opacity w3-margin-bottom">
+  <div class="w3-large w3-padding-16">
     Follow Me:
-    <br>
-    <a href='https://github.com/teresaheidt' target="_blank"> <i class="fa fa-github"></i></a>
-    <a href='https://www.linkedin.com/in/teresa-heidt-a2a4641/' target="_blank"> <i class="fa fa-linkedin"></i></a>
+    <div class="w3-xlarge w3-padding-16">
+    <a href='https://github.com/teresaheidt' target="_blank"> <i class="fa fa-github fa-3x"></i></a>
+    <a href='https://www.linkedin.com/in/teresa-heidt-a2a4641/' target="_blank"> <i class="fa fa-linkedin fa-3x"></i></a> 
   </div>
 
   <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-text-green">w3.css</a></p>
