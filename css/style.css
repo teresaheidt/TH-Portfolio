@@ -7,8 +7,26 @@
 }
 
 .w3-xxlarge {
-  height: 180px;
-  padding-right: 500px;
+  height: 170px;
+  padding-right: 40vw;
+}
+
+.w3-xxlarge span {
+  font-size: 3vw;
+  margin: 0;
+}
+@media only screen and (max-width: 600px) {
+  .w3-xxlarge {
+    padding-top: 5vw;
+    line-height: 5vw;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .w3-xxlarge {
+    padding-top: 10vw;
+    line-height: 5vw;
+  }
 }
 
 .content {
