@@ -16,7 +16,7 @@ The projects I have linked in my portfolio are; an application to an application
 * **Daily Scheduler** - manage a daily calendar that tells you where the user is in the day with color blocking and provides the current date at the top of the page. 
 
 ## Applications used
-To build my portfolio, I used w3-schools template, html, css, font awesome for styling and javascript.
+To build my portfolio, I used React, w3-schools template, html, css, font awesome for styling and javascript.
 ## Imgs
 When the user visits my portfolio, this is the first image they see. Every link takes the user to their desired location. 
 ![screenshot](img/screenshot1.png) 
